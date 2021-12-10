@@ -3,14 +3,14 @@ any can add bgm with names
 julie 
 */
 const fs = require('fs')
-const Julie = require('..media/events');
+const Julie = require('../events');
 const {MessageType, Mimetype } = require('@adiwajshing/baileys');
-const FilterDb = require('.media/sql/filters');
-const Config = require('..media/config')
+const FilterDb = require('./sql/filters');
+const Config = require('../config')
 const jid = Config.DISBGM !== false ? Config.DISBGM.split(',') : [];
 const afn = Config.PLKS !== false ? Config.PLKS.split(',') : [];
 const afnp = Config.THERI_KICK !== false ? Config.THERI_KICK.split(',') : [];
-const Language = require('..media/language');
+const Language = require('../language');
 const Lang = Language.getString('filters');
 
 if (Config.WORKTYPE == 'private') {
