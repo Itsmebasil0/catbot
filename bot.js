@@ -140,11 +140,11 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
         });
 
         console.log(
-            chalk.green.bold('✅ Julie Mwol working!')
+            chalk.green.bold('✅ Catbot is working!')
         );
         await conn.sendMessage(
             conn.user.jid,
-            '*Bot Started*',
+            '*ᴄᴀᴛʙᴏᴛ ᴡᴏʀᴋɪɴɢ*',
             MessageType.text
           );
           if (config.LANG == 'EN' || config.LANG == 'ML') {
@@ -153,15 +153,15 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
             if (commits.total === 0) {
                 await conn.sendMessage(conn.user.jid,Lang.UPDATE, MessageType.text);    
             } else {
-                var julieupdate = Lang.NEW_UPDATE;
+                var catbotupdate = Lang.NEW_UPDATE;
                 commits['all'].map(
                     (commit) => {
-                        julieupdate += '🔸 [' + commit.date.substring(0, 10) + ']: ' + commit.message + ' <' + commit.author_name + '>\n';
+                        catbotupdate += '🔸 [' + commit.date.substring(0, 10) + ']: ' + commit.message + ' <' + commit.author_name + '>\n';
                     }
                 );
                 await conn.sendMessage(
                     conn.user.jid,
-                    '```type``` *.update now* ```to update```\n\n' + julieupdate + '```', MessageType.text
+                    '```type``` *.update now* ```to update```\n\n' + catbotupdate + '```', MessageType.text
                 ); 
             } 
       }
@@ -324,8 +324,8 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                                     'Gerçekleşen Hata: ' + error + '\n\n'
                                     , MessageType.text);
                             } else {
-                                await conn.sendMessage(conn.user.jid, '*~_________~ 𝕁𝕦𝕝𝕚𝕖𝕄𝕨𝕠𝕝 ~______~*' +
-                                    '\n\n*🧞‍♂️ ' + error + '*\n\n*Support group*\nchat.whatsapp.com/EWLP9VPgYmgGff6NORWSKk ' 
+                                await conn.sendMessage(conn.user.jid, '*ᴄᴀᴛʙᴏᴛ_🐱_[error]' +
+                                    '\n\n*😪 ' + error + '*\n' 
                                     , MessageType.text);
                             }
                         }
