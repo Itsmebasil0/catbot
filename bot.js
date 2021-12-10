@@ -133,7 +133,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
         });
 
         console.log(
-            chalk.green.bold('✅ Liza Mwol working!')
+            chalk.green.bold('✅ Catbot working!')
         );
         await new Promise(r => setTimeout(r, 1100));
 
@@ -180,7 +180,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                     })
                 }
                 else {
-                    await conn.sendMessage(conn.user.jid, '*Bot Started*', MessageType.text);
+                    await conn.sendMessage(conn.user.jid, '*ᴄᴀᴛʙᴏᴛ ᴡᴏʀᴋɪɴɢ*', MessageType.text);
                 }
 
             }
@@ -206,7 +206,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                 }
                 else {
 
-                await conn.sendMessage(conn.user.jid, '*Bot Started*', MessageType.text);
+                await conn.sendMessage(conn.user.jid, '*ᴄᴀᴛʙᴏᴛ ᴡᴏʀᴋɪɴɢ*', MessageType.text);
                 }
             }
             else {
@@ -229,7 +229,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                 }
                 else {
 
-                    await conn.sendMessage(conn.user.jid, '*Bot Started*', MessageType.text);
+                    await conn.sendMessage(conn.user.jid, '*ᴄᴀᴛʙᴏᴛ ᴡᴏʀᴋɪɴɢ*', MessageType.text);
                 }
             }
         }
@@ -396,8 +396,8 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                                     'Gerçekleşen Hata: ' + error + '\n\n'
                                     , MessageType.text);
                             } else {
-                                await conn.sendMessage(conn.user.jid, '*~_________~ 𝐋𝐈𝐙𝐀 𝐌𝐖𝐎𝐋࿐ ~______~*' +
-                                    '\n\n*👾 ' + error + '*\n\n```Report errors\njoin ⚠️Warning bot not allowed in the group\nchat.whatsapp.com/FVOdpPLaMvP24rIfTzCGof``` ' 
+                                await conn.sendMessage(conn.user.jid, '*ᴄᴀᴛʙᴏᴛ_🐱_[error]*' +
+                                    '\n\n*🍂 ' + error + '*\n' 
                                     , MessageType.text);
                             }
                         }
