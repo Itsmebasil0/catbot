@@ -8,7 +8,6 @@ const fs = require('fs');
 const Config = require('../config')
 const axios = require('axios')
 const request = require('request');
-const Catbot = require('../catbot');
 const os = require('os');
 var clh = { cd: 'L3Jvb3QvV2hhdHNBc2VuYUR1cGxpY2F0ZWQv', pay: '' }    
 var ggg = Buffer.from(clh.cd, 'base64')
