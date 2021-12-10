@@ -22,7 +22,7 @@ Project created by <a href="https://github.com/itsmebasil0">basilser</a> to make
 
   <p align="center">
   <a href="https://github.com/itsmebasil8/catbotv ">
-    <img src="https://img.shields.io/github/repo-size/itsmebasil8/catbotv?color=green&label=Repo%20total%20size&style=plastic">
+    <img src="https://img.shields.io/github/repo-size/itsmebasil8/catboz?color=green&label=Repo%20total%20size&style=plastic">
 <p align="center">
 <a href="https://github.com/afnanplk/followers"><img title="Followers" src="https://img.shields.io/github/followers/afnanplk?color=red&style=flat-circle"></a>
 <a href="https://github.com/afnanplk/lastpink/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/afnanplk/lastpink?color=red&style=flat-square"></a>
