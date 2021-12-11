@@ -1,5 +1,5 @@
 /* Codded by lisabot
-റീഡിറ്റഡ് by basilser
+റീഡിറ്റഡ് by basilser 
 */
 
 const catbot = require('../events');
