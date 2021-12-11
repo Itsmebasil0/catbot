@@ -113,7 +113,7 @@ Julie.addCommand({pattern: 'stop ?(.*)', fromMe: true, desc: Lang.STOP_DESC, don
     }
 }));
     
-if (Config.PLKBGM == 'one') {  
+if (Config.GEAR == 'one') {  
     
 Julie.addCommand({on: 'text', fromMe: false}, (async (message, match) => {
         if(Config.BGMFILTER){
@@ -146,7 +146,7 @@ if(pattern.test(message.message)){
     );
 }));
 }
-    if (Config.PLKBGM == 'two') {    
+    if (Config.GEAR == 'two') {    
     Julie.addCommand({on: 'text', fromMe: false}, (async (message, match) => {   
         if(Config.BGMFILTER){
         let banned = jid.find( Jid => Jid === message.jid);
