@@ -1,14 +1,14 @@
-const Julie = require("../events");
+const Catbot = require("../events");
 const Config = require("../config");
 const fs = require('fs');
 
 if (Config.WORKTYPE == 'private') {
 
-  Julie.addCommand(
+  Catbot.addCommand(
     { pattern: "list ?(.*)", fromMe: true, dontAddCommandList: true },
     async (message, match) => {
       let CMD_HELP = "";
-      Julie.commands.map(async (command) => {
+      Catbot.commands.map(async (command) => {
         if (
           command.dontAddCommandList === false &&
           command.pattern !== undefined
@@ -42,11 +42,11 @@ if (Config.WORKTYPE == 'private') {
   );
 }
 else if (Config.WORKTYPE == 'public') {
-  Julie.addCommand(
+  Catbot.addCommand(
     { pattern: "list ?(.*)", fromMe: false, dontAddCommandList: true },
     async (message, match) => {
       let CMD_HELP = "";
-      Julie.commands.map(async (command) => {
+      Catbot.commands.map(async (command) => {
         if (
           command.dontAddCommandList === false &&
           command.pattern !== undefined
