@@ -6,6 +6,7 @@ const catbot = require('../events');
 const {MessageType, GroupSettingChange, Mimetype, MessageOptions} = require('@adiwajshing/baileys');
 const fs = require('fs');
 const Config = require('../config')
+const Catbot = require('../catbot');
 const axios = require('axios')
 const request = require('request');
 const os = require('os');
