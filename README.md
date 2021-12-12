@@ -54,7 +54,7 @@ the user is responsible.
 ## STEP 1 👇
 <div align="center">
   
-  [![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@itsmebasil/Catbot-4)
+  [![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@itsmebasil/Catbot-3)
 
 ## STEP 2 👇
 <div align="center">
