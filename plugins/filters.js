@@ -3,7 +3,7 @@ any can add bgm with names
 julie 
 */
 const fs = require('fs')
-const Catbot = require('../events');
+const Julie = require('../events');
 const {MessageType, Mimetype } = require('@adiwajshing/baileys');
 const FilterDb = require('./sql/filters');
 const Config = require('../config')
