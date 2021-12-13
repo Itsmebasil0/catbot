@@ -25,6 +25,11 @@
             "required": true,
             "value": "en"
         },
+        "OWNER_NAME": {
+            "description": "Type your name",
+            "required": false,
+            "value": "default"  
+        },
         "BGM_FILTER": {
             "description": "If you likes bgm you can write 'true'. Otherwise false",
             "required": false,
