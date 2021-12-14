@@ -1,25 +1,33 @@
+/* Copyright (C) 2020 Yusuf Usta.
+Licensed under the  GPL-3.0 License;
+you may not use this file except in compliance with the License.
+WhatsAsena - Yusuf Usta
+Developer & Co-Founder - Phaticusthiccy
+re-edited by afnan plk
+re-edited by Amalser
+*/
 
-const Julie = require('../events');
+const MyPnky = require('../events');
 const {MessageType,Mimetype} = require('@adiwajshing/baileys');
 const {spawnSync} = require('child_process');
 const Config = require('../config');
+const config = require('../config');
 const chalk = require('chalk');
 const axios = require('axios');
-
 const Language = require('../language');
 const Lang = Language.getString('system_stats');
 
 
 if (Config.WORKTYPE == 'private') {
 
-    Julie.addCommand({pattern: 'alive', fromMe: true, desc: Lang.ALIVE_DESC}, (async (message, match) => {
+    MyPnky.addCommand({pattern: 'alive', fromMe: true, desc: Lang.ALIVE_DESC}, (async (message, match) => {
         
         let pp
         try { pp = await message.client.getProfilePicture(message.jid.includes('-') ? message.data.participant : message.jid ); } catch { pp = await message.client.getProfilePicture(); }
         await axios.get(pp, {responseType: 'arraybuffer'}).then(async (res) => { await message.client.sendMessage(message.jid, res.data, MessageType.image, { caption: Config.ALIVEMSG }); });
     }));
 
-    Julie.addCommand({pattern: 'sysd', fromMe: true, desc: Lang.SYSD_DESC}, (async (message, match) => {
+    MyPnky.addCommand({pattern: 'sysd', fromMe: true, desc: Lang.SYSD_DESC}, (async (message, match) => {
 
         const child = spawnSync('neofetch', ['--stdout']).stdout.toString('utf-8')
         await message.sendMessage(
@@ -29,11 +37,12 @@ if (Config.WORKTYPE == 'private') {
 }
 else if (Config.WORKTYPE == 'public') {
 
-   Julie.addCommand({pattern: 'alive', fromMe: false, desc: Lang.ALIVE_DESC}, (async (message, match) => {
-	 var plk_say = new Date().toLocaleString('HI', { timeZone: 'Asia/Kolkata' }).split(' ')[1]
+   MyPnky.addCommand({pattern: 'live', fromMe: false, desc: Lang.ALIVE_DESC}, (async (message, match) => {
+       	
+        var plk_say = new Date().toLocaleString('HI', { timeZone: 'Asia/Kolkata' }).split(' ')[1]
         const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
         var plk_here = new Date().toLocaleDateString(get_localized_date)
-	var afn_plk_ = '```⏱ Time :' + plk_say + '```\n\n ```📅 Date :' + plk_here + '```'
+	var afnplk = '```⏱ Time :' + plk_say + '```\n\n ```📅 Date :' + plk_here + '```'
 	   
 	   	     var r_text = new Array ();    
 r_text[0] = "The greatest glory in living lies not in never falling, but in rising every time we fall.\n           -Nelson Mandela";
@@ -56,7 +65,7 @@ r_text[16] = "In the end, it's not the years in your life that count. It's the l
 r_text[17] = "Never let the fear of striking out keep you from playing the game.\n        -Babe Ruth";
 r_text[18] = "Life is either a daring adventure or nothing at all.\n        -Helen Keller";
 r_text[19] = "Many of life's failures are people who did not realize how close they were to success when they gave up.\n        -Thomas A. Edison";
-r_text[20] = "The secret of success is to do the common thing uncommonly well. -John D. Rockefeller Jr.";//created by afnanplk
+r_text[20] = "The secret of success is to do the common thing uncommonly well. -John D. Rockefeller Jr.";
 r_text[21] = "Keep smiling, because life is a beautiful thing and there's so much to smile about.\n           -Marilyn Monroe";
 r_text[22] = "You have brains in your head. You have feet in your shoes. You can steer yourself any direction you choose.\n         -Dr. Seuss";
 r_text[23] = "Life is made of ever so many partings welded together.\n        -Charles Dickens";
@@ -73,34 +82,22 @@ var i = Math.floor(31*Math.random())
         
         let pp
         try { pp = await message.client.getProfilePicture(message.jid.includes('-') ? message.data.participant : message.jid ); } catch { pp = await message.client.getProfilePicture(); }
-        await axios.get(pp, {responseType: 'arraybuffer'}).then(async (res) => { await message.client.sendMessage(message.jid, res.data, MessageType.image, { caption: Config.ALIVEMSG.replace('{pp}', '').replace('{time}', afn_plk_).replace('{qt}', r_text[i])}); });
+        await axios.get(pp, {responseType: 'arraybuffer'}).then(async (res) => { await message.client.sendMessage(message.jid, res.data, MessageType.image, { caption: Config.ALIVEMSG.replace('{pp}', '').replace('{qt}', r_text[i])}); });
 	}    
-	   else {//codded by afnanplk
+	   else {
 		   
 		   var a_plk = new Array ();
 
-        a_plk[0] = "https://i.imgur.com/zdcqaaG.jpeg";
-        a_plk[1] = "https://mcdn.wallpapersafari.com/medium/20/69/juFNVl.jpg";
-        a_plk[2] = "https://cdn.wallpapersafari.com/51/57/WXxpck.jpg";
-        a_plk[3] = "https://cdn.wallpapersafari.com/72/42/nAdV2j.jpg";
-        a_plk[4] = "https://cdn.wallpapersafari.com/55/85/n5cLrp.jpg";
-        a_plk[5] = "https://i.imgur.com/zdcqaaG.jpeg";
-        a_plk[6] = "https://mcdn.wallpapersafari.com/medium/55/25/KrvA7S.jpg";
-        a_plk[7] = "https://images.pexels.com/photos/8294554/pexels-photo-8294554.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500";
-        a_plk[8] = "https://images.pexels.com/photos/8566473/pexels-photo-8566473.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500";
-        a_plk[9] = "https://wallpapercave.com/wp/wp2957455.jpg";
-        a_plk[10] = "https://i.imgur.com/1PPJq0Q.jpeg";
-	 var p = Math.floor(11*Math.random())
+        a_plk[0] = Config.LG_LOGO
+	 var p = Math.floor(1*Math.random())
 
         var plk_alive = await axios.get(`${a_plk[p]}`, { responseType: 'arraybuffer' })
-//codded by afnanplk
-        await message.client.sendMessage(message.jid, Buffer(plk_alive.data), MessageType.image, {mimetype: Mimetype.png, caption: Config.ALIVEMSG.replace('{time}', afn_plk_).replace('{qt}', r_text[i])})
+
+        await message.client.sendMessage(message.jid, Buffer(plk_alive.data), MessageType.image, {mimetype: Mimetype.png, caption: Config.ALIVEMSG.replace('{qt}', r_text[i])})
 	   }
     }));
 
-    //thanks to lyfe00011
-    
-    Julie.addCommand({pattern: 'sysd', fromMe: false, desc: Lang.SYSD_DESC}, (async (message, match) => {
+    MyPnky.addCommand({pattern: 'sysd', fromMe: false, desc: Lang.SYSD_DESC}, (async (message, match) => {
 
         const child = spawnSync('neofetch', ['--stdout']).stdout.toString('utf-8')
         await message.sendMessage(
@@ -108,7 +105,7 @@ var i = Math.floor(31*Math.random())
         );
     }));
     
-    Julie.addCommand({pattern: 'psysd', fromMe: true, desc: Lang.SYSD_DESC, dontAddCommandList: true }, (async (message, match) => {
+    MyPnky.addCommand({pattern: 'psysd', fromMe: true, desc: Lang.SYSD_DESC, dontAddCommandList: true }, (async (message, match) => {
 
         const child = spawnSync('neofetch', ['--stdout']).stdout.toString('utf-8')
         await message.sendMessage(
