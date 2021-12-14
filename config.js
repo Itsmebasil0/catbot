@@ -20,7 +20,6 @@ module.exports = {
     CHANNEL: 'https://t.me/remasterplugin',
     SESSION: process.env.CATBOT_SESSION === undefined ? '' : process.env.CATBOT_SESSION,
     ANTİLİNK: process.env.ANTİ_LİNK === undefined ? 'false' : process.env.ANTİ_LİNK,
-    FAKE: process.env.FAKE_REMOVE === undefined ? 'true' : process.env.FAKE_REMOVE,
     AUTOBİO: process.env.AUTO_BİO === undefined ? 'false' : process.env.AUTO_BİO,
     GANSTYLE: process.env.GAN_IMAGE === undefined ? 'https://i.hizliresim.com/loUtAb.jpg' : process.env.GAN_IMAGE,
     LANG: process.env.LANGUAGE === undefined ? 'en' : process.env.LANGUAGE.toUpperCase(),
