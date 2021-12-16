@@ -16,7 +16,7 @@ DATABASE_URL = process.env.DATABASE_URL === undefined ? './whatsasena.db' : proc
 DEBUG = process.env.DEBUG === undefined ? false : convertToBool(process.env.DEBUG);
 
 module.exports = {
-    VERSION: 'v8.0.2',
+    VERSION: 'v7.3.6',
     CHANNEL: 'https://t.me/remasterplugin',
     SESSION: process.env.CATBOT_SESSION === undefined ? '' : process.env.CATBOT_SESSION,
     ANTİLİNK: process.env.ANTİ_LİNK === undefined ? 'false' : process.env.ANTİ_LİNK,
