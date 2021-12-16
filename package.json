@@ -2,13 +2,13 @@
   "name": "catBot",
   "version": "2.0.0",
   "description": "catbot whatsapp bot provides a bunch of bgms and features to your whatsapp account.",
-  "main": "./catbots/bot.js",
+  "main": "./catboz/bot.js",
   "scripts": {
     "start": "supervisor -s bot.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Itsmebasil0/catbots"
+    "url": "git+https://github.com/Itsmebasil8/catboz"
   },
   "keywords": [
     "WhatsApp",
@@ -19,7 +19,7 @@
   "developer": "basilser / @karthik-terror-boy",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/Itsmebasil0/catbot/issues"
+    "url": "https://github.com/Itsmebasil8/catboz/issues"
   },
   "homepage": "https://github.com/phaticusthiccy/WhatsAsenaDuplicated#readme",
   "dependencies": {
