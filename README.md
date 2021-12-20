@@ -1,5 +1,11 @@
-## Thanks for all❤️ 
-### New Catbot ..
+## 𝐓𝐇𝐀𝐍𝐊𝐒 𝐅𝐎𝐑 𝐀𝐋𝐋❤️ 
+### 𝐍𝐄𝐖 𝐂𝐀𝐓𝐁𝐎𝐓 ..
+
+## ʙᴏᴛ ɪs ᴡᴏʀᴋɪɴɢ ᴏʀ ɴᴏᴛ
+
+```
+Maintanced Bot unlock soon
+```
 
 <div align="center">
   <img border-radius: 15px src="https://i.imgur.com/h0S3Z4D.png" width="200" height="200"/>
@@ -68,7 +74,7 @@ the user is responsible.
 ## STEP 2 👇
 <div align="center">
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/itsmebasil0/catbot)
+
      </div>
 <br>
 <br >
