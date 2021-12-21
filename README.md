@@ -4,7 +4,7 @@
 ## ʙᴏᴛ ɪs ᴡᴏʀᴋɪɴɢ ᴏʀ ɴᴏᴛ
 
 ```
-Maintanced Bot unlock soon
+💝𝗖𝗔𝗧𝗕𝗢𝗧 𝗪𝗢𝗥𝗞𝗜𝗡𝗚
 ```
 
 <div align="center">
@@ -74,7 +74,7 @@ the user is responsible.
 ## STEP 2 👇
 <div align="center">
 
-
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/itsmebasil0/catbot)
      </div>
 <br>
 <br >
