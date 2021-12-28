@@ -74,7 +74,7 @@ the user is responsible.
 ## STEP 2 👇
 <div align="center">
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/itsmebasil0/catbot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/itsmebasil0/privatebot2)
      </div>
 <br>
 <br >
