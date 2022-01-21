@@ -1,14 +1,14 @@
 {
-  "name": "catBot",
+  "name": "SHA-MOWLE",
   "version": "2.0.0",
-  "description": "catbot whatsapp bot provides a bunch of bgms and features to your whatsapp account.",
-  "main": "./catboz/bot.js",
+  "description": "SHA-MOWLE whatsapp bot provides a bunch of bgms and features to your whatsapp account.",
+  "main": "./SHA-MOWLE/bot.js",
   "scripts": {
     "start": "supervisor -s bot.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Itsmebasil8/catboz"
+    "url": "git+https://github.com/Ottapettavanvlk/SHA-MOWLE"
   },
   "keywords": [
     "WhatsApp",
@@ -19,7 +19,7 @@
   "developer": "basilser / @karthik-terror-boy",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/Itsmebasil8/catboz/issues"
+    "url": "https://github.com/Ottapettavanvlk/SHA-MOWLE/issues"
   },
   "homepage": "https://github.com/phaticusthiccy/WhatsAsenaDuplicated#readme",
   "dependencies": {
