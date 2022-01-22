@@ -3,9 +3,9 @@
     "description": "SHA-MOWLE is the Modified Version of WhatsAsena, Made By @Ottapettavanvlk with Baileys.",
     "logo": "IMG-20220118-WA0778.jpg",
     "keywords": ["whatsapp", "SHA-MOWLE", "userbot", "julie", "WhatsAsena", "mwol", "bot", "ai"],
-    "repository": "https://github.com/itsmebasil0/SHA-MOWLE",
-    "website":   "https://github.com/itsmebasil0/SHA-MOWLE",
-    "success_url": "https://github.com/itsmebasil0/SHA-MOWLE",
+    "repository": "https://github.com/Ottapettavanvlk/SHA-MOWLE",
+    "website":   "https://github.com/Ottapettavanvlk/SHA-MOWLE",
+    "success_url": "https://github.com/Ottapettavanvlk/SHA-MOWLE",
     "stack": "container",
     "env": {
         "SHA-MOWLE_SESSION": {
