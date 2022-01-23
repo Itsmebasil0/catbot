@@ -1,3 +1,4 @@
+
 const Asena = require('../events');
 const {MessageType} = require('@adiwajshing/baileys');
 const {spawnSync} = require('child_process');
@@ -18,7 +19,7 @@ if (Config.WORKTYPE == 'private') {
         }
 
         if (Config.OWNER == 'default') {
-            await message.client.sendMessage(message.jid,'CatBot created by *Basil sir*' , MessageType.text);
+            await message.client.sendMessage(message.jid,'SHA-MOWLE created by *OTTAPETTAVAN sir*' , MessageType.text);
         }
         else {
             await message.client.sendMessage(message.jid,Config.OWNER + '\n\n---------------------', MessageType.text);
@@ -36,7 +37,7 @@ else if (Config.WORKTYPE == 'public') {
         }
 
         if (Config.OWNER == 'default') {
-            await message.client.sendMessage(message.jid,'CatBot created by *Basil sir*' , MessageType.text);
+            await message.client.sendMessage(message.jid,'SHA-MOWLE created by *OTTAPETTAVAN sir*' , MessageType.text);
         }
         else {
             await message.client.sendMessage(message.jid,'ʜʏ ᴅᴜᴅᴇ....👋🏻\n\n```MY OWNER:``` *'+Config.OWNER + '*\n\n ```OWNER NUMBER``` *'+Config.BSL + '\n\n---------------------', MessageType.text);
