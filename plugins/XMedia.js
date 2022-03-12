@@ -1076,7 +1076,7 @@ else if (Config.WORKTYPE == 'public') {
 
 *ᴀᴜᴅᴜɪᴏ ᴄᴀᴍᴍᴀɴᴅ : https://github.com/itsmebasil0/catbot/tree/master/uploads*
 
-*ᴡʜᴀᴛsᴀᴘᴘ ɢʀᴏɪᴘ : https://chat.whatsapp.com/EceyD88E4OeJwS0w8KUrsC*
+*ᴡʜᴀᴛsᴀᴘᴘ ɢʀᴏᴜᴘ : https://chat.whatsapp.com/EceyD88E4OeJwS0w8KUrsC*
 
 *ʙᴏᴛ sᴇᴛᴛɪɴɢ ᴠɪᴅᴇᴏ : https://youtube.com/channel/UCrnPCbv7jIKqAXQTllDV6Ng
 `}) 
