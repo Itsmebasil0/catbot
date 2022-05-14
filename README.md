@@ -1,6 +1,7 @@
 <h1>Didula Wa Bot v1.0</h1>
 
-<a href="https://ibb.co/4WnN6rx"><img src="https://i.ibb.co/Q93m2wG/logo-fc681ccd.png" alt="logo-fc681ccd" border="0" /></a>
+<a href="https://github.com/Its-meDidulaBot/Didula-Whatsapp-Bot-V1"><img src="https://i.ibb.co/JnwkfJP/logo-fc681ccd.png" alt="google-font" border="0"></a>
+
 
 ## Setup
 
