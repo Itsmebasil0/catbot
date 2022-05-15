@@ -15,7 +15,7 @@
 
   
 
-  [![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@itsmebasil/Catbot-3)
+  [![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@Its-meDidulaBot/Didula-bot-Qr)
 
 ## STEP 2 👇
 
