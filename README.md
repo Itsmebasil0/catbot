@@ -22,7 +22,6 @@
 <div align="center">
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Its-meDidulaBot/Didda-Wa-Bot-V1.0)
-
   ##Deploy Error You can Fix 
   1 Fork
   2 change github name & save
