@@ -64,7 +64,9 @@ the user is responsible.
 
 ## Setup
 <div align="center">
+#Deploy to railway
 
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/NI9h0q?referralCode=jDrDVZ)
   ### Simple Method
 ## STEP 1 👇
 <div align="center">
